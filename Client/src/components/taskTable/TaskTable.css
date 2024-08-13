@@ -1,0 +1,18 @@
+.Tablecell {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: inherit;
+}
+
+.table-container {
+    max-height: 100%; 
+    overflow-y: auto;
+  }
+  
+.table-head {
+    position: sticky;
+    top: 0;
+    background-color: #F2F2F2; /* Same as the background color you have */
+    z-index: 1; /* Ensures the header is above other rows */
+  }
+  
